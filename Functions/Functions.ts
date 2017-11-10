@@ -1,3 +1,4 @@
+// Copied from http://robertdunawaypro.blogspot.ch/2016/01/012-typescript-simple-functions.html
 
 // Create a simple 'add' function.
 function add(a: number, b: number): number {
