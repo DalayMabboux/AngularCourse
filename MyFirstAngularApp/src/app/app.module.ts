@@ -1,17 +1,17 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule }  from '@angular/platform-browser';
 
-import { AppComponent } from './app.component';
-import { HelloComponent } from './hello.component';
+import { NameInputComponent } from './nameInput.component';
+import { NameSummaryComponent } from './nameSummary.component';
 
 @NgModule({
   imports: [BrowserModule],
   declarations: [
-    AppComponent,
-    HelloComponent
+    NameSummaryComponent,
+    NameInputComponent
   ],
-  exports: [AppComponent],
-  bootstrap: [AppComponent]
+  exports: [NameSummaryComponent],
+  bootstrap: [NameSummaryComponent]
 })
 export class AppModule {
 }
